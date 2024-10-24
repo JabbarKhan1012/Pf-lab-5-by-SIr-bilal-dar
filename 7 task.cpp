@@ -18,11 +18,11 @@ int main()
     if(percentage>=90){
         cout<<"You have got Grade A";
     }
-    else if (percentage>=75||percentage<=89)
+    else if (percentage>=75&&percentage<=89)
     {
         cout<<"you have got Grade B";
     }
-    else if(percentage>=50||percentage<=74)
+    else if(percentage>=50&&percentage<=74)
     {
         cout<<"You have got Grade C";
     }
